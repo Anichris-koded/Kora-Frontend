@@ -5,6 +5,9 @@ import {
   getLocaleCookieOptions,
   resolveLocaleFromRequest,
 } from "@/i18n/locale";
+import { locales, defaultLocale } from "@/i18n/config";
+
+const isProduction = process.env.NODE_ENV === "production";
 
 const PROTECTED = ["/invoice/create"];
 

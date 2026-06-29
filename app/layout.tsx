@@ -72,6 +72,7 @@ function localeToOgLocale(locale: Locale): string {
     en: "en_US",
     es: "es_ES",
     ar: "ar_SA",
+    "pt-BR": "pt_BR",
   };
   return localeMap[locale] || "en_US";
 }
