@@ -17,6 +17,7 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:report": "playwright show-report",
+    "test:components": "playwright test --project=components",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "release:dry": "semantic-release --dry-run"
@@ -92,6 +93,9 @@
     "@semantic-release/npm": "13.1.5",
     "semantic-release": "24.2.1",
     "bundlesize": "0.18.2"
+  },
+  "overrides": {
+    "esbuild": "0.28.1"
   },
   "bundlesize": [
     {

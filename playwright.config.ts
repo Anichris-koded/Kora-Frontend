@@ -41,6 +41,12 @@ export default defineConfig({
     {
       name: "chromium",
       use: { ...devices["Desktop Chrome"] },
+      testIgnore: "**/components/**",
+    },
+    {
+      name: "components",
+      use: { ...devices["Desktop Chrome"] },
+      testDir: "./e2e/components",
     },
   ],
 
