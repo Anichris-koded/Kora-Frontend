@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Anichris-koded/Kora-Frontend/compare/v1.0.0...v1.0.1) (2026-06-29)
+
+
+### Bug Fixes
+
+* resolve all pre-existing TypeScript errors blocking CI ([66b69db](https://github.com/Anichris-koded/Kora-Frontend/commit/66b69dbe63f09b22b9fec12c6ba7d078160c04a4))
+
 # 1.0.0 (2026-06-29)
 
 
